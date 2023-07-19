@@ -6,7 +6,7 @@ body,p,h1,h2,h3,h4,h5,h6,span,a{
 font-family: 'Work Sans', sans-serif;
 }
 main,header,footer{
-    max-width: 800px;
+    max-width: 1200px;
     margin:auto;
     
 }
@@ -241,8 +241,8 @@ p.test2 {
 }
 .positions{
     position: relative;
-    top: -7rem;
-    right: 9.25rem;
+    top: -7.25rem;
+    right: 15rem;
 }
 .positions img {
     width: 40%;
@@ -354,6 +354,7 @@ p.test2 {
     padding: 2rem .80rem;
     color: white;
 }
+
 .footer-top-icon{
     display: flex;
     justify-content: center;
@@ -361,7 +362,7 @@ p.test2 {
     margin-bottom: 2rem;
 }
 .footer-top-icon img{
-    width: 8%;
+    width: 7% !important;
 }
 .footer-top-icon span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -413,20 +414,6 @@ p.test2 {
     font-weight: 500;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive by Mobile  */
  @media screen and (max-width:578px) {
@@ -511,10 +498,23 @@ p.test2 {
     .social-icon,
     .footer-icon-bottom{
         grid-template-columns: auto auto auto;
-  
+        
+    }
+    .footer-icon-bottom li{
+        margin-bottom: 1rem;
+
+    }
+    .social-icon span{
+        margin-bottom: 1rem;
+
+    }
+    .foot-last-menu li{
+        margin-bottom: 1rem;
+
     }
     .foot-last-menu{
         grid-template-columns:auto auto;
+        margin-bottom: 1rem;
   
 
     }
@@ -524,124 +524,3 @@ p.test2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive by Mobile */
-/* @media screen and (max-width: 578px) {
-    .main-nav {
-        flex-direction: column;
-    }
-    .nav-left {
-        margin-bottom: 1rem;
-    }
-    .nav-right ul li {
-        margin-bottom: .60rem;
-    }
-    .banner-section {
-        flex-direction: column-reverse;
-    }
-    .careers-section,
-    .play-instantly-section,
-    .online-games-card,
-    .banner-bottom-section,
-    .banner-section,
-    .nav-right ul,
-    .main-nav {
-        flex-direction: column;
-    }
-    .careers-left,
-    .careers-right,
-    .play-instantly-left,
-    .play-instantly-right,
-    .online-games-card-items,
-    .banner-bottom-left-section,
-    .banner-bottom-right-section,
-    .banner-right {
-        width: 100%;
-    }
-    .banner-bottom-right-section {
-        text-align: center;
-    }
-    .careers-right,
-    .banner-left {
-        width: 100%;
-        text-align: center;
-        padding: .35rem;
-    }
-    .banner-left {
-        margin-top: 1rem;
-    }
-    .online-games-card-items img {
-        width: 70%;
-    }
-    .online-games-card-items p {
-        font-size: .70rem;
-    }
-    .online-text p {
-        font-size: .50rem;
-    }
-    .online-text h2 {
-        font-size: 1rem;
-    }
-    .play-instantly-right img {
-        width: 75%;
-    }
-    .positions img {
-        width: 36%;
-    }
-    .positions {
-        position: relative;
-        top: -4rem;
-        right: 5.80rem;
-    }
-    .footer-top-items {
-        width: 50%;
-        margin-bottom: 1rem;
-    }
-    .footer-top-items h6 {
-        font-size: .41rem;
-        font-weight: 400;
-    }
-    .social-icon,
-    .footer-icon-bottom {
-        grid-template-columns: auto auto auto;
-    }
-    .foot-last-menu {
-        grid-template-columns: auto auto;
-    }
-    /* Additional responsive adjustments for the footer */
-    .footer-top-section,
-    .footer-sec {
-        padding: 1rem .60rem;
-    }
-    .footer-icon-bottom li {
-        margin-right: 0.75rem;
-    }
-    .end {
-        font-size: .70rem;
-    }
-    .footer-top-icon img {
-        width: 12%;
-    }
-    body {
-        overflow-x: hidden;
-    }
-} */
